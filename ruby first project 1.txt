@@ -1,0 +1,12 @@
+print("Whats your first name?")
+print("What is your last name?")
+print("What city do you live in(use abrbreviations like NY)")
+print("What state do you live in")
+first_name = gets.chomp.capitalize
+last_name = gets.chomp.capitalize
+city = gets.chomp.capitalize
+state = gets.chomp.upcase
+puts " #{first_name}!"
+puts " #{last_name}!"
+puts " #{city}!"
+puts " #{state}!"
